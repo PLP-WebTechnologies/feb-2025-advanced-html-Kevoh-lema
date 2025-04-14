@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Sample Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    table, th, td {
+      border: 1px solid #000;
+      border-collapse: collapse;
+      padding: 8px;
+    }
+    table {
+      margin-bottom: 20px;
+      width: 100%;
+    }
+    form {
+      max-width: 400px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Ordered List with Roman Numerals</h1>
+  <ol type="I">
+    <li>Introduction to HTML</li>
+    <li>Working with CSS</li>
+    <li>JavaScript Basics</li>
+    <li>Building Web Forms</li>
+    <li>Deploying Websites</li>
+  </ol>
+
+  <h1>External Image</h1>
+  <img src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg" alt="Sample Image from Pexels" width="500">
+
+  <h1>Contact Table</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Jane Doe</td>
+        <td>123 Main Street</td>
+        <td>+254700111222</td>
+        <td>jane@example.com</td>
+      </tr>
+      <tr>
+        <td>John Smith</td>
+        <td>456 Elm Avenue</td>
+        <td>+254701223344</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary Johnson</td>
+        <td>789 Oak Road</td>
+        <td>+254712345678</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>James Brown</td>
+        <td>321 Pine Lane</td>
+        <td>+254734567890</td>
+        <td>james@example.com</td>
+      </tr>
+      <tr>
+        <td>Patricia Green</td>
+        <td>654 Maple Blvd</td>
+        <td>+254745678901</td>
+        <td>patricia@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h1>Registration Form</h1>
+  <form action="#" method="post">
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="mobile">Mobile Number:</label>
+    <input type="tel" id="mobile" name="mobile" required>
+
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" rows="3" required></textarea>
+
+    <label for="password">Create Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <input type="submit" value="Register">
+  </form>
+
+</body>
+</html>
